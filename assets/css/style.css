@@ -1,0 +1,44 @@
+
+body {
+    background-color: bisque;
+    line-height: 2;
+}
+
+.container {
+    position: relative;
+    left: 15%;
+    border: 5px solid royalblue;
+    width: 70%;
+    background-color: paleturquoise;
+    margin-top: 20px;
+}
+
+
+h1 {
+    color: greenyellow;
+    background-color: dodgerblue;
+    text-align: center;
+    align-self: center;
+    font-size: 60px;
+    margin: 5px;
+   
+}
+
+h3 {
+    color: blueviolet;
+    background-color:aquamarine;
+    font-size: 40px;
+    align-self: center;
+    text-align: center;
+    margin: 20px 30px 20px 30px;
+   
+}
+
+.game {
+    text-align: center;
+    padding: 30px;
+    background-color: greenyellow;
+    border: 5px solid goldenrod;
+    align-self: center;
+    margin: 30px;
+}
