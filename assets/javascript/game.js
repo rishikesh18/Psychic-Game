@@ -13,6 +13,7 @@ var letterToGuess = null;
 
 //math.floor for random pick
 var computerGuess = computerGuesses[Math.floor(Math.random() * computerGuesses.length)];
+//console.log(computerGuess);
 
 var yourGuessesLeft = function() {
   document.getElementById("guessLeft").innerHTML = "Guesses reamining: " + guessesLeft;
@@ -20,6 +21,7 @@ var yourGuessesLeft = function() {
 
 var guessCounter = function() {
   this.letterToGuess = this.computerGuesses[Math.floor(Math.random() * this.computerGuesses.length)];
+
 };
 var remainingGuesses = function() {
    document.getElementById("guessed").innerHTML = "Your Guessed alphabet(s): " + guessedLetters.join(', ');
